@@ -89,7 +89,7 @@ class AppUpdated extends AppState {
 // BLOC
 
 class AppBloc extends Bloc<AppEvent, AppState> implements MDNSPluginDelegate {
-  final String serviceType = "_googlecast._tcp";
+  final String serviceType = "_http._tcp";
   MDNSPlugin _mdns;
   ServiceList _services = ServiceList();
 
